@@ -1,10 +1,12 @@
 import React from 'react'
+import { NavBar, Hero } from './components'
 
 const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+   <React.Fragment>
+    <NavBar/>
+    {/* <Hero/> */}
+   </React.Fragment>
   )
 }
 
