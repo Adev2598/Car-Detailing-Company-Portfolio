@@ -16,12 +16,12 @@ const NavBar = () => {
 
   return (
     <>
-    <div className="sticky top-0">
+    
         <header className="absolute inset-x-0 top-0 z-50 ">
         <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">EOSI</span>
+              <span className="sr-only">SLO</span>
               
               <img
                 className="h-14 w-auto pt-2"
@@ -102,7 +102,7 @@ const NavBar = () => {
           </Dialog.Panel>
         </Dialog>
       </header>
-      </div>
+      
     </>
   )
 }

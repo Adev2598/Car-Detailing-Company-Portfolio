@@ -4,14 +4,20 @@ import FerrariYellow from '../assets/images/ferrari-yellow.png'
 
 const Hero = () => {
   return (
-    <div className='grid grid-cols-2 md:grid-cols-1 mt-[200px] w-full'>
-        <div className='pl-24'>
-            <h1>Super Luxury</h1>
+    <>   
+      
+    <div className='grid lg:grid-cols-2 sm:grid-cols-1 lg:px-24'>
+        <div className='text-left pt-56 '>
+            <h1 className="text-4xl font-bold tracking-tight text-gray-800 sm:text-6xl">
+              Crafting Brilliance<br/>One Car at a Time
+            </h1>
         </div>
-        <div className='pl-24'>
-            <img src={FerrariYellow}/>
+        <div className='py-72'>
+            <img className="" src={FerrariYellow}/>
         </div>
     </div>
+
+    </>
   )
 }
 
