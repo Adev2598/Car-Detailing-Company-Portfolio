@@ -4,7 +4,7 @@ import '../styles/ServicesCard.css'
 const ServicesCard = () => {
   return (
     <>
-            <h1 className='text-gray-800 text-center text-4xl pb-12 font-bold tracking-tight text-gray-800 sm:text-6xl'>Our Services</h1>
+            <h1 className='text-gray-800 text-center text-4xl pb-12 font-bold tracking-tight sm:text-6xl'>Our Services</h1>
     <div className='bg-[#103025] px-56'>
         <div className="wrapper">
            <div className="container">
